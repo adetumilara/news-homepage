@@ -291,10 +291,15 @@ nav a:hover{
   color: hsl(35, 77%, 62%);
  }
 
+ .closeBtn{
+  display: flex;
+  justify-content: flex-end;
+ }
+
 .close{
   display: block;
   width: 3rem;
-  align-self: flex-end;
+  /* align-self: flex-start; */
 }
 
  .menu{
